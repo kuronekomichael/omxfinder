@@ -1,0 +1,41 @@
+{
+  "name": "omxfinder",
+  "version": "0.0.4",
+  "description": "CLI frontend for omxplayer/omxdirector",
+  "main": "bin/omxfinder",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kuronekomichael/omxfinder.git"
+  },
+  "keywords": [
+    "omxplayer",
+    "omxdirector",
+    "raspberry pi",
+    "rasp"
+  ],
+  "author": "kuronekomichael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuronekomichael/omxfinder/issues"
+  },
+  "homepage": "https://github.com/kuronekomichael/omxfinder",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "sinon": "^1.12.2"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "fs-extra": "^0.13.0",
+    "inquirer": "^0.8.0",
+    "lodash": "^2.4.1",
+    "omxdirector": "^0.1.1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "omxfinder": "bin/omxfinder"
+  }
+}

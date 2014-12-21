@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var OmxPlayer = require('../lib/omxfinder');
+new OmxPlayer().run();
