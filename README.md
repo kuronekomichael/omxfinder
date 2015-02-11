@@ -43,3 +43,5 @@ $ {"dir":["<first-opened-directory-path>"]}
 $ cat .omxfinder
 $ {"dir":["/mnt/share/movies"]}
 ```
+
+wwoooooooooooooooooooooooooo
