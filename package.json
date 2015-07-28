@@ -1,6 +1,6 @@
 {
   "name": "omxfinder",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "CLI frontend for omxplayer/omxdirector",
   "main": "bin/omxfinder",
   "scripts": {
@@ -32,7 +32,7 @@
     "fs-extra": "^0.13.0",
     "inquirer": "^0.8.0",
     "lodash": "^2.4.1",
-    "omxdirector": "^0.1.1"
+    "@kuronekomichael/omxdirector": "^0.1.2"
   },
   "preferGlobal": true,
   "bin": {

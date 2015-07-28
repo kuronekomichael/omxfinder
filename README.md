@@ -5,12 +5,24 @@
 
 [![NPM](https://nodei.co/npm/omxfinder.png?downloads=true)](https://nodei.co/npm/omxfinder/)
 
-## Requipment
+## Requirement
 
 install [omxplayer](http://omxplayer.sconde.net/)
 
 ```
 $ sudo apt-get install omxplayer
+```
+
+or
+
+Build and install [popcornmix/omxplayer](https://github.com/popcornmix/omxplayer) (* recommended)
+
+```
+$ git clone https://github.com/popcornmix/omxplayer.git
+$ ./prepare-native-raspbian.sh
+$ make ffmpeg
+$ make
+$ sudo make install
 ```
 
 ## Install
@@ -19,12 +31,6 @@ To install omxfinder run the following
 
 ```
 $ npm install -g omxfinder
-```
-
-## Feature
-
-```
-$ omxfinder
 ```
 
 ## Configuration
@@ -42,4 +48,10 @@ $ {"dir":["<first-opened-directory-path>"]}
 ```
 $ cat .omxfinder
 $ {"dir":["/mnt/share/movies"]}
+```
+
+## Start app
+
+```
+$ omxfinder
 ```
